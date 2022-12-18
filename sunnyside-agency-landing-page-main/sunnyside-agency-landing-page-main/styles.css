@@ -1,0 +1,297 @@
+/* Reset Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+header {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  background-image: url("/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Header Section */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  transition: all 0.3s ease-in-out;
+}
+nav ul li:hover {
+  transform: translateY(-2px);
+}
+nav ul li a {
+  padding: 1.5rem 2.5rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 40px 10px;
+  border: 0;
+}
+
+nav ul li a:hover {
+  background-color: #73cffe;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.center h1 {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 8px;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+.arrow__svg {
+  position: absolute;
+  right: 50%;
+  left: 48%;
+}
+
+/* Transform Section */
+
+.transform {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.transform__left {
+  padding: 10rem 15rem;
+}
+
+.transform__left h3 {
+  font-family: "Fraunces", serif;
+  color: #23303e;
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.transform__paragraph {
+  font-family: "Barlow", sans-serif;
+  color: hsl(232, 10%, 55%);
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.transform__btn {
+  font-family: "Fraunces", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
+  font-weight: 900;
+  border-bottom: 4px solid hsl(51, 100%, 49%);
+  border-left: 4px solid hsl(51, 100%, 49%);
+  border-radius: 10px;
+  padding: 1rem;
+  padding-bottom: 6px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.transform__btn:hover {
+  background-color: hsl(51, 100%, 49%);
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 15%);
+  transform: translateY(-3px);
+}
+
+.transform__btn--red {
+  border-color: hsl(7, 99%, 70%);
+}
+
+.transform__btn--red:hover {
+  background-color: hsl(7, 99%, 70%);
+}
+.transform__final-left {
+  background-image: url("/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 48rem 2rem 4rem 2rem;
+}
+.transform__final-right {
+  background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 48rem 2rem 4rem 2rem;
+}
+.transform__description h3 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+  color: hsl(198, 62%, 26%);
+}
+
+.transform__description p {
+  font-family: "Barlow", sans-serif;
+  font-size: 2.3rem;
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+  line-height: 4rem;
+  padding: 2.5rem 10rem;
+  font-weight: lighter;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 15rem;
+  text-align: center;
+  background-color: #fffbf8;
+}
+
+.testimonials__header {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 8rem;
+  text-align: center;
+  color: hsl(210, 4%, 67%);
+}
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__card {
+  margin-right: 2rem;
+}
+
+.card__image {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 3.5rem;
+}
+
+.card__description {
+  color: hsl(213, 9%, 39%);
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 5rem;
+  line-height: 1.7;
+}
+
+.card__name {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 27%, 19%);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1.6rem;
+}
+
+.card__name-sub {
+  color: hsl(210, 4%, 67%);
+  font-size: 1.4rem;
+  font-family: "Barlow", sans-serif;
+}
+
+/* IMAGE GALLERY */
+.image__gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+  background-color: #90d4c5;
+  text-align: center;
+  padding: 5rem;
+}
+.filter__color {
+  filter: invert(41%) sepia(25%) saturate(839%) hue-rotate(116deg)
+    brightness(89%) contrast(91%);
+  width: 200px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+footer ul li a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-right: 6rem;
+  color: hsl(168, 34%, 41%);
+  font-family: "Barlow", sans-serif;
+  transition: color 0.2s ease-in-out;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+.contact__links {
+  margin-bottom: 3rem;
+}
+
+.contact__links img {
+  width: 25px;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact__links img:hover {
+  transform: translateY(-3px);
+  opacity: 0.5;
+}
+.attribution {
+  font-size:1.8rem;
+  font-family: "Barlow", sans-serif;
+  color:#fff;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.attribution:hover{
+  transform: scale(1.05) translateY(5px);
+}
